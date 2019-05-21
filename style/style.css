@@ -1,0 +1,56 @@
+body {
+	margin: 0px;
+}
+
+@font-face {
+	font-family: medium;
+	src: url('./font/Montserrat Medium.otf') format("opentype");
+}
+
+@font-face {
+	font-family: light;
+	src: url('./font/Montserrat Light.otf') format("opentype");
+}
+
+#Navbar {
+	position: fixed;
+	height: 120px;
+	background-color: rgb(30,30,30);
+	width: 100%;
+	top: 0px;
+}
+
+#Navbar-Link-Container {
+	float: right;
+	top: calc(50% - 30px);
+	position: relative;
+}
+
+#Navbar-Link-Container a {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 2px solid transparent;
+	font-family: light;
+	transition: 0.2s;
+	color: white;
+	cursor: pointer;
+}
+
+#Navbar-Link-Container a:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-bottom: 2px solid #ffaa00;
+}
+
+#Navbar-Center-Container {
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
