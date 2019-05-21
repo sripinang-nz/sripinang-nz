@@ -1,0 +1,17 @@
+body {
+    font-family: arial;
+    height: 200vh;
+}
+
+#flag {
+	width: 100px;
+	height: 20px;
+	background-color: green;
+}
+
+#navbar {
+	position: fixed;
+	height: 60px;
+	background-color: black;
+	width: 100px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script>
+var scrollPos = 0;
+// adding scroll event
+window.addEventListener('scroll', function(){
+  // detects new state and compares it with the new one
+  if ((document.body.getBoundingClientRect()).top > scrollPos)
+		document.getElementById('scroll').style.width = '50px'
+	else
+		document.getElementById('scroll').style.width = '100px'
+	// saves the new position for iteration.
+	scrollPos = (document.body.getBoundingClientRect()).top;
+});
+</script>
+<div id=scroll></div>
+<div id=navbar>
+  <div id=flag></div>
+</div>
+</body>
+</html>
