@@ -1,0 +1,4 @@
+var NavColour = 'rgb(100,100,100)'
+var PrimaryColour = '#aa00aa'
+
+var TopboxHeader = 'Replace This';
